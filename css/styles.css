@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    padding: 10px 30px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-section-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.front-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.top-nav{
+    display: flex;
+    padding: 6px 14px;
+    gap: 30px;
+}
+
+.top-nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.top-nav li{
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #677788;
+}
